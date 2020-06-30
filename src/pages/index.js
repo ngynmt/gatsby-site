@@ -11,14 +11,26 @@ export default function Home() {
         <h1>hi <span role="img" aria-label="emoji hand wave">👋</span> i'm michelle</h1>
           <div class="meesh-home__social">
             <div>
-              <a href='https://linkedin.com/in/nguyenchelle' className="meesh-home__social-icon"><FontAwesomeIcon icon={faLinkedin} aria-hidden="true"/></a>
-              <a href='https://gitlab.com/ngynmt' className="meesh-home__social-icon"><FontAwesomeIcon icon={faGitlab} aria-hidden="true"/></a>
-              <a href='https://github.com/ngynmt' className="meesh-home__social-icon"><FontAwesomeIcon icon={faGithub} aria-hidden="true"/></a>
+              <a href='https://linkedin.com/in/nguyenchelle' className="meesh-home__social-icon">
+                <span><FontAwesomeIcon icon={faLinkedin} aria-hidden="true"/></span>
+              </a>
+              <a href='https://gitlab.com/ngynmt' className="meesh-home__social-icon">
+                <span><FontAwesomeIcon icon={faGitlab} aria-hidden="true"/></span>
+              </a>
+              <a href='https://github.com/ngynmt' className="meesh-home__social-icon">
+                <span><FontAwesomeIcon icon={faGithub} aria-hidden="true"/></span>
+              </a>
             </div>
             <div>
-              <a href='https://twitter.com/ngynmt' className="meesh-home__social-icon"><FontAwesomeIcon icon={faTwitter} aria-hidden="true"/></a>
-              <a href='https://medium.com/@ngynmt' className="meesh-home__social-icon"><FontAwesomeIcon icon={faMediumM} aria-hidden="true"/></a>
-              <a href='https://keybase.io/ngynmt/chat' className="meesh-home__social-icon"><FontAwesomeIcon icon={faKeybase} aria-hidden="true"/></a>
+              <a href='https://twitter.com/ngynmt' className="meesh-home__social-icon">
+                <span><FontAwesomeIcon icon={faTwitter} aria-hidden="true"/></span>
+              </a>
+              <a href='https://medium.com/@ngynmt' className="meesh-home__social-icon">
+                <span><FontAwesomeIcon icon={faMediumM} aria-hidden="true"/></span>
+              </a>
+              <a href='https://keybase.io/ngynmt/chat' className="meesh-home__social-icon">
+                <span><FontAwesomeIcon icon={faKeybase} aria-hidden="true"/></span>
+              </a>
             </div>
           </div>
       </div>
