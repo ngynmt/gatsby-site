@@ -10,26 +10,26 @@ export default function Home() {
       <div class="meesh-home">
         <h1>hi <span role="img" aria-label="emoji hand wave">👋</span> i'm michelle</h1>
           <div class="meesh-home__social">
-            <div>
+            <div class="meesh-home__social-row">
               <a href='https://linkedin.com/in/nguyenchelle' className="meesh-home__social-icon">
-                <span><FontAwesomeIcon icon={faLinkedin} aria-hidden="true"/></span>
+                <span><FontAwesomeIcon icon={faLinkedin} size="lg" aria-hidden="true"/></span>
               </a>
               <a href='https://gitlab.com/ngynmt' className="meesh-home__social-icon">
-                <span><FontAwesomeIcon icon={faGitlab} aria-hidden="true"/></span>
+                <span><FontAwesomeIcon icon={faGitlab} size="lg" aria-hidden="true"/></span>
               </a>
               <a href='https://github.com/ngynmt' className="meesh-home__social-icon">
-                <span><FontAwesomeIcon icon={faGithub} aria-hidden="true"/></span>
+                <span><FontAwesomeIcon icon={faGithub} size="lg" aria-hidden="true"/></span>
               </a>
             </div>
-            <div>
+            <div class="meesh-home__social-row">
               <a href='https://twitter.com/ngynmt' className="meesh-home__social-icon">
-                <span><FontAwesomeIcon icon={faTwitter} aria-hidden="true"/></span>
+                <span><FontAwesomeIcon icon={faTwitter} size="lg" aria-hidden="true"/></span>
               </a>
               <a href='https://medium.com/@ngynmt' className="meesh-home__social-icon">
-                <span><FontAwesomeIcon icon={faMediumM} aria-hidden="true"/></span>
+                <span><FontAwesomeIcon icon={faMediumM} size="lg" aria-hidden="true"/></span>
               </a>
               <a href='https://keybase.io/ngynmt/chat' className="meesh-home__social-icon">
-                <span><FontAwesomeIcon icon={faKeybase} aria-hidden="true"/></span>
+                <span><FontAwesomeIcon icon={faKeybase} size="lg" aria-hidden="true"/></span>
               </a>
             </div>
           </div>
@@ -37,9 +37,3 @@ export default function Home() {
     </div>
   );
 }
-
-// <a href='http://gitlab.com/ngynmt'><i className="fa fa-lg fa-gitlab meesh-home__social-icon" aria-hidden="true"></i></a>
-// <a href='http://github.com/ngynmt'><i className="fa fa-lg fa-github meesh-home__social-icon" aria-hidden="true"></i></a>
-// <a href='http://twitter.com/ngynmt'><i className="fa fa-lg fa-twitter meesh-home__social-icon" aria-hidden="true"></i></a>
-// <a href='https://medium.com/@ngynmt'><i className="fa fa-lg fa-medium-m meesh-home__social-icon" aria-hidden="true"></i></a>
-// <a href='https://keybase.io/ngynmt/chat'><i className="fa fa-lg fa-keybase meesh-home__social-icon" aria-hidden="true"></i></a>
