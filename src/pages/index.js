@@ -15,14 +15,14 @@ export default function Home() {
         <h1>hi <span role="img" aria-label="emoji hand wave">👋</span> i'm michelle</h1>
           <div class="meesh-home__social">
             <div class="meesh-home__social-row">
-              <a href='https://linkedin.com/in/nguyenchelle' className="meesh-home__social-icon">
-                <span><FontAwesomeIcon icon={faLinkedin} size="lg" aria-hidden="true"/></span>
-              </a>
               <a href='https://gitlab.com/ngynmt' className="meesh-home__social-icon">
                 <span><FontAwesomeIcon icon={faGitlab} size="lg" aria-hidden="true"/></span>
               </a>
               <a href='https://github.com/ngynmt' className="meesh-home__social-icon">
                 <span><FontAwesomeIcon icon={faGithub} size="lg" aria-hidden="true"/></span>
+              </a>
+              <a href='https://linkedin.com/in/nguyenchelle' className="meesh-home__social-icon">
+                <span><FontAwesomeIcon icon={faLinkedin} size="lg" aria-hidden="true"/></span>
               </a>
             </div>
             <div class="meesh-home__social-row">
