@@ -1,6 +1,20 @@
 .meesh-home {
   text-align: center;
 
+  &__hello {
+    cursor: pointer;
+    display: inline-block;
+
+    &:hover {
+      animation: wave .8s;
+      animation-iteration-count: infinite;
+    }
+
+    a {
+      text-decoration: none;
+    }
+  }
+
   &__social {
     display: flex;
     flex-wrap: wrap;
@@ -23,4 +37,10 @@
       margin-bottom: 10px;
     }
   }
+}
+
+@keyframes wave {
+  0% { transform: rotate(-3deg); }
+  50% { transform: rotate(20deg); }
+  100% { transform: rotate(-3deg); }
 }
