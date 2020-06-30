@@ -1,8 +1,12 @@
 import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { config } from '@fortawesome/fontawesome-svg-core';
+import '@fortawesome/fontawesome-svg-core/styles.css';
 import { faLinkedin, faGithub, faGitlab, faMediumM, faKeybase, faTwitter } from '@fortawesome/free-brands-svg-icons';
 
 import '../styles/main.scss';
+
+config.autoAddCss = false;
 
 export default function Home() {
   return (
